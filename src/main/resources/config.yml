@@ -1,0 +1,4 @@
+# Configuration for AutoTorch Plugin
+enabled: true
+light-level-threshold: 7
+placement-cooldown-seconds: 5
