@@ -5,6 +5,10 @@ api-version: '1.21'
 authors: [ KiteGG ]
 website: https://ks.akii.pro
 description: Automatically places torches when light levels are low.
+commands:
+  autotorch:
+    description: Manage the AutoTorch plugin.
+    usage: /autotorch [reload|toggle]
 permissions:
   autotorch.use:
     description: Allows players to use the AutoTorch feature.

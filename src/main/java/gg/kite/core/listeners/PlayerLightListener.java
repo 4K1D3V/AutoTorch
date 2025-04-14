@@ -2,6 +2,7 @@ package gg.kite.core.listeners;
 
 import gg.kite.core.Main;
 import gg.kite.core.util.Util;
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -46,7 +47,7 @@ public class PlayerLightListener implements Listener {
             if (torchLocation != null) {
                 location.getWorld().getBlockAt(torchLocation).setType(Material.TORCH);
                 Util.removeTorchFromInventory(player);
-                player.sendMessage("§6AutoTorch: A torch has been placed!");
+                player.sendActionBar(ChatColor.GREEN + "Torch Placed!");
             }
         }
     }

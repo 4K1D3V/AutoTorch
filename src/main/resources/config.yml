@@ -1,4 +1,5 @@
 # Configuration for AutoTorch Plugin
 enabled: true
+prefix: "&a[Torch]"
 light-level-threshold: 7
 placement-cooldown-seconds: 5

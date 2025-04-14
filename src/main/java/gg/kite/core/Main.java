@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
         saveDefaultConfig();
 
         getServer().getPluginManager().registerEvents(new PlayerLightListener(), this);
-        getCommand("autotorch").setExecutor(new TorchCommand());
+        getCommand("autotorch").setExecutor(new TorchCommand(this));
 
         LOGGER.info("AutoTorch enabled!");
     }
